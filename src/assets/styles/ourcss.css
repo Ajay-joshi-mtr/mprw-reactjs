@@ -1,0 +1,109 @@
+.table td, .table th {
+    vertical-align: top;
+    border-top: 1px solid #b0b2b578 !important;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #9d9fa5;
+}
+#mytable thead tr th{
+    width:0% !important;
+}
+tbody tr:hover{
+   background-color: rgba(0,0,21,.075) !important;
+}
+.dropdown-menu{
+    border: 1px solid #a7abb3;
+}
+.dropdown-divider
+{
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #d0d0d0;
+}
+.preview-icon{
+    background: #e2e4e8;
+}
+.mfe-2
+{
+    color: #000000a6;
+    margin-right: 10px;
+}
+.pagination
+{
+    margin-top: 20px;
+}
+.dataTables_info
+{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .content-wrapper
+    {
+        padding:0px;
+    }
+  }
+
+  /* Form Css */
+
+ .form-group label {
+   
+    color:#2e3031d6 !important;
+}
+.card-header
+{
+    color:#333;
+}
+
+.daterangepicker .calendar-table table {
+    width: 100%;
+    margin: 0;
+    color: #383d42;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* buttons of print ,pdf maker */
+.dt-buttons
+{
+    padding-top: 20px;
+}
+
+/* pagination */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+   
+    padding: 0px !important;
+    
+}
+.paginate_button:hover {
+    border: none !important;
+    background-color: #585858;
+    background: linear-gradient(to bottom, #585858 0%, #2e7bff 100%) !important;
+}
+.stretch-card {
+    
+    padding: 0px;
+   
+}
+
+/* selector */
+.select__menu
+{
+    color:#555;
+}
+.select__multi-value__remove
+{
+    color:#425b84;
+}
+
+/* modal */
+.modal-content
+{
+    color:#555;
+}
+.badge
+{
+    padding:0.25em 0.4em;
+}
